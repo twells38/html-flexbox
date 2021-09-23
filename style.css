@@ -1,0 +1,39 @@
+section {
+  border: 2px solid black;
+}
+.header {
+  background-color: rgb(238, 66, 66);
+  padding: 0.5rem;
+}
+h1 {
+  color: rgb(49, 107, 231);
+  text-align: center;
+  text-transform: uppercase;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  margin: 2rem;
+}
+#container > div {
+  background-color: aqua;
+  margin: 7px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#container .project-header {
+  padding: 20px;
+}
+h2,
+h3 {
+  margin-top: -0.2rem;
+  color: rgb(112, 58, 163);
+}
+p {
+  margin-top: -10px;
+}
